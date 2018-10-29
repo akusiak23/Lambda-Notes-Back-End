@@ -1,0 +1,17 @@
+{
+  "name": "Lambda-Notes-Back-End",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/akusiak23/Lambda-Notes-Back-End.git",
+  "author": "Arkadiusz Kusiak <akusiak23@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "helmet": "^3.14.0",
+    "knex": "^0.15.2",
+    "sqlite3": "^4.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
