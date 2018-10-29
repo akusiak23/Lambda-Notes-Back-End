@@ -5,19 +5,25 @@ function getNotes() {
 }
 
 function getNote(id) {
-    return db('notes').where({ id:id });
+    return db('notes')
+        .where({ id:id });
 }
 
 function addNote(note) {
-    return db('notes').insert(note);
+    return db('notes')
+        .insert(note);
 }
 
 function updateNote(id, note) {
-    return db('notes').where({ id: id }).update(note);
+    return db('notes')
+        .where({ id: id })
+        .update(note);
 }
 
 function deleteNote(id) {
-    return db('notes').where({ id: id }).del();
+    return db('notes')
+        .where({ id: id })
+        .del();
 }
 
 module.exports = {
